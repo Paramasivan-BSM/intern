@@ -3,10 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>E-Commerce SPA</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p>Test Site</p>
+
+<header class="navbar">
+    <h1 class="logo">ShopNow</h1>
+    <div class="cart">
+        🛒 Cart (<span id="cart-count">0</span>)
+    </div>
+</header>
+
+<main class="container">
+    <section class="products" id="product-list">
+        <!-- Products injected by JS -->
+    </section>
+</main>
+
+<footer class="footer">
+    <p>© 2025 ShopNow. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
